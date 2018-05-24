@@ -16,3 +16,12 @@ const ingredients = ['corn tortillas', 'carne asada', 'cilantro', 'onions', 'cab
 console.log(yearMovieCameOut, ingredients);
 alert(favoriteFood + ingredients);
 confirm(favoriteMovie, yearMovieCameOut);
+
+// Takehome-day2
+let userAnswerFN = prompt("What is your first name?");
+let userAnswerLN = prompt("What is your last name?");
+console.log(userAnswerFN);
+alert(userAnswerLN);
+let userBirthday = new Date('1.1.80');
+confirm(userBirthday);
+alert(userBirthday);
