@@ -16,3 +16,4 @@ const ingredients = ['corn tortillas', 'carne asada', 'cilantro', 'onions', 'cab
 console.log(yearMovieCameOut, ingredients);
 alert(favoriteFood + ingredients);
 confirm(favoriteMovie, yearMovieCameOut);
+console.log(myName);
