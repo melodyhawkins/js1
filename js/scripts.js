@@ -17,11 +17,11 @@ console.log(yearMovieCameOut, ingredients);
 alert(favoriteFood + ingredients);
 confirm(favoriteMovie, yearMovieCameOut);
 
-<<<<<<< HEAD
-// Takehome-day2
-=======
 
->>>>>>> 24cb552a3aadcd14856d65f51e0e680a13dfc30f
+// Takehome-day2
+
+
+
 let userAnswerFN = prompt("What is your first name?");
 let userAnswerLN = prompt("What is your last name?");
 console.log(userAnswerFN);
@@ -29,13 +29,9 @@ alert(userAnswerLN);
 let userBirthday = new Date('1.1.80');
 confirm(userBirthday);
 alert(userBirthday);
-<<<<<<< HEAD
-=======
-=======
+
 console.log(myName);
 var classGoal = "to learn JavaScript so I can become a front-end developer.";
 console.log(classGoal);
 var myFavoriteHobby = "reading";
 console.log(myFavoriteHobby);
-
->>>>>>> 24cb552a3aadcd14856d65f51e0e680a13dfc30f
