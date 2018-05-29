@@ -162,7 +162,7 @@ switch (firstName) {
 }
 
 let firstName = prompt ("what is your first name?", "Tom");
-switch (firstName.toLowerCase()) { //it will always be a lowercase value that comes back. 
+switch (firstName.toLowerCase()) { //it will always be a lowercase value that comes back.
   case 'tom':
     alert("Hello Tom!");
     break; //have to include this otherwise JS will continue to evaluate code.
@@ -175,6 +175,7 @@ switch (firstName.toLowerCase()) { //it will always be a lowercase value that co
     alert('I have never heard that name before.');
     break;
 }
+// Day One
 var myName = "Melody";
 let birthday = new Date('10.6.76');
 const myGoal = "to learn JavaScript so I can become a front-end developer for Bitwise Industries, Inc.";
@@ -185,6 +186,7 @@ alert(chores);
 let userAnswer = prompt ("Did you brush your teeth today?", "Yes");
 console.log(userAnswer);
 
+// Day Two
 let favoriteMovie = "Gone With the Wind";
 let favoriteFood = "tacos";
 console.log(favoriteMovie, favoriteFood);
@@ -194,4 +196,3 @@ console.log(yearMovieCameOut, ingredients);
 alert(favoriteFood + ingredients);
 confirm(favoriteMovie, yearMovieCameOut);
 console.log(myName);
-
