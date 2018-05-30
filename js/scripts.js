@@ -37,6 +37,9 @@ switch (favoriteColor) {
   case 'blue':
     alert(firstName + ' '+ 'you must like the sea.');
     break;
+  case '':
+      alert(firstName + ' '+ 'please pick a color.');
+      break;
   default:
 
 }
