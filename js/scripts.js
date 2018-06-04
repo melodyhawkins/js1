@@ -1,4 +1,3 @@
-takehome-day4
 // Try it out #2
 // In your scripts.js file, create 5 arrays, each with one of your top 5 movies' title and the main character's name
 // Add all of these arrays to a final array named favoriteMovies
@@ -24,6 +23,3 @@ favLeastFav.push(favoriteMovies[0][0], favoriteMovies[4][0]);
 console.log(favLeastFav);
 
 alert(favoriteMovies.length);
-
-
-
