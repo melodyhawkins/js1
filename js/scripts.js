@@ -4,6 +4,7 @@
 // Create an array with just the titles of your favorite movies and alert it
 // Create another array with your favorite and least favorite of the top 5 and console.log it.
 // Check the length of your favoriteMovies array by alerting it.
+
 let favMov1 = ["Girls Just Want to Have Fun", "Janey Glenn"];
 let favMov2 = ["Goonies", "Mikey"];
 let favMov3 = ["My Cousin Vinny", "Vinny Gambini"];
