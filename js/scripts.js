@@ -1,45 +1,29 @@
+takehome-day4
+// Try it out #2
+// In your scripts.js file, create 5 arrays, each with one of your top 5 movies' title and the main character's name
+// Add all of these arrays to a final array named favoriteMovies
+// Create an array with just the titles of your favorite movies and alert it
+// Create another array with your favorite and least favorite of the top 5 and console.log it.
+// Check the length of your favoriteMovies array by alerting it.
+let favMov1 = ["Girls Just Want to Have Fun", "Janey Glenn"];
+let favMov2 = ["Goonies", "Mikey"];
+let favMov3 = ["My Cousin Vinny", "Vinny Gambini"];
+let favMov4 = ["Legally Blonde", "Elle Woods"];
+let favMov5 = ["Any Given Sunday", "Christina Pagniacci"];
+
+let favoriteMovies = [];
+favoriteMovies.push(favMov1, favMov2, favMov3, favMov4, favMov5);
+
+let titles =[];
+titles.push(favoriteMovies[0][0], favoriteMovies[1][0], favoriteMovies[2][0], favoriteMovies[3][0], favoriteMovies[4][0]);
+
+alert(titles);
+
+let favLeastFav = [];
+favLeastFav.push(favoriteMovies[0][0], favoriteMovies[4][0]);
+console.log(favLeastFav);
+
+alert(favoriteMovies.length);
 
 
-// Takehome Day3
-// Prompts your user for their name.
-// Next, ask the user's favorite color. (Provide the user with the basic 10 colors as options i.e. red, orange, yellow, green, blue, pink, purple, black, white, and grey).
-// Depending on the color, write 9 different responses for the possible answers. Include the user's name in the response message.
-let firstName = prompt("What is your first name?");
-let favoriteColor = prompt("What is your favorite color from the following list?", "red,"+ ' ' + "orange," + ' ' + "yellow,"+' ' + "green,"+ ' ' + "blue,"+ ' ' + "pink,"+ ' ' + "purple,"+ ' ' + "black,"+ ' ' + "white,"+ ' ' + "grey");
-switch (favoriteColor) {
-  case 'white':
-    alert(firstName + ' '+ 'your choice is very bright.');
-    break;
-  case 'black':
-    alert(firstName + ' '+ 'your choice is very bold.');
-    break;
-  case 'grey':
-    alert(firstName + ' '+ 'your choice is very bland.');
-    break;
-  case 'pink':
-    alert(firstName + ' '+ 'you have excellent taste in colors!');
-    break;
-  case 'red':
-    alert(firstName + ' '+ 'you must like strawberries.');
-    break;
-  case 'orange':
-    alert(firstName + ' '+ 'you must like halos.');
-    break;
-  case 'yellow':
-    alert(firstName + ' '+ 'you must like bananas.');
-    break;
-  case 'purple':
-    alert(firstName + ' '+ 'you must like grapes.');
-    break;
-  case 'green':
-    alert(firstName + ' '+ 'you must like trees.');
-    break;
-  case 'blue':
-    alert(firstName + ' '+ 'you must like the sea.');
-    break;
-  case '':
-      alert(firstName + ' '+ 'please pick a color.');
-      break;
-  default:
 
-}
