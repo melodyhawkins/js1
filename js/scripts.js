@@ -148,7 +148,7 @@ alert(`You will need ${usage} to last until you're 80.`);
 
 // data modeling - look at the problem and figure out in your head how you are going to solve that problem.
 
-// RYEKER'S VERSION
+// RYEKER'S VERSION - Take home - day 4
 // 1. (1) make an array; (2) gather them from the user; (3) make the requests specific from the userAge
 // 2. (1)use the date object to find out the date wanted done by or (2) the number of days to do it - easier
 // 3.
@@ -224,20 +224,20 @@ alert(doneItems);
   // log(console,""); //same as console.log("");
 // array is always attached to forEach - array is an object - forEach is a function;
   // forEach is implicity consuming the array it is attached to
-  ["hello", "world"].forEach(arr =>{
-    console.log(arr);
-// break it down:
-    // function forEach(arr, fn) {
-    //   for(let i = 0; i < arr.length; i++){
-    //     fn(arr[i]);
-    // }
-  // }
-// string is always attached to toUpperCase - string is an object - toUpperCase is a function;
-function toUpperCase(string {
-  //return the uppercase of string
-})
-
-let myUpperCasedString = toUpperCase("hello world");
-
-// always going to be attached to something with a period.
-// method is always going to be attached to an object with a period and always have parentheses = obj.method()
+//   ["hello", "world"].forEach(arr =>{
+//     console.log(arr);
+// // break it down:
+//     // function forEach(arr, fn) {
+//     //   for(let i = 0; i < arr.length; i++){
+//     //     fn(arr[i]);
+//     // }
+//   // }
+// // string is always attached to toUpperCase - string is an object - toUpperCase is a function;
+// function toUpperCase(string {
+//   //return the uppercase of string
+// })
+//
+// let myUpperCasedString = toUpperCase("hello world");
+//
+// // always going to be attached to something with a period.
+// // method is always going to be attached to an object with a period and always have parentheses = obj.method()
