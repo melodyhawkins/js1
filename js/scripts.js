@@ -1,3 +1,9 @@
+// // Day 7
+// //Try it out #2
+// let button = document.querySelector('button');
+// let div = document.querySelector('div');
+// // const body = document.querySelector('body');
+
 //takehome-day5
 /*
 On your takehome-day5 branch write a program that uses functions to:
@@ -59,7 +65,6 @@ function isPalindrome(string) {
 
   return string === reversed ? true : false;
 }
-=======
 // Day 5 -Functions
 // So far we have written code in the global scope, for the most part, functions allow you to take a piece of code that you can pass around. Place in {} - it is an entire block of code that you can execute on any type of data that you want. Take a piece of code, set it aside and call it as many times as you want.
 // Rules: They can (optional) take in data (input); they can (optional) feed data back to you (output); console.log is a function. One of the hallmarks of a function is parentheses.
@@ -112,29 +117,80 @@ function isPalindrome(string) {
 // let myCoolFunction = stuff => { // 1 argument fat arrow function
 //   console.log(stuff)
 // };
-//
-// let myCoolFunction = (stuff, things, etc) => { // multiple argument fat arrow function
-//   console.log(stuff)
-// };
 
-// The order of the arguments in functions matters.
-
-// function divide(arg1, arg2) {
-//   return arg2/arg1;
-// }
-// Try it out #1
-// On your day5 branch, write a function that calculates a dog's age. It should:
-// Accept 1 argument (age of the dog in years).
-// Return the age of the dog using the conversion rate of 1 year to 7 "dog" years.
-// Alert the answer.
-// function ageDog(years) {
-//   return years * 7;
-// };
 //
-// alert(ageDog(parseInt(prompt("How old is your dog in years?", "3"))));
-
-// Now, write a function that tells you what a "lifetime supply" will be for any product. It should:
+// button.addEventListener('click', e =>{
+//   e.target.textContent = "Goodbye cats!!";
+// });
 //
+// //console.log(button.textContent);// another way to check text content.
+//
+day-7
+// //innerHTML - use textContent instead if you have the choice
+//  div.innerHTML = "<p>lorem ipsum dolores cantu!</p>";
+//
+// //Creating Elements
+//
+// //.createElement()
+// // let element = document.createElement(tagName[, options]);
+//
+// let newH1 = document.createElement('h1');
+// newH1.textContent = "Login Here!!"
+// console.log(newH1);
+//
+// // append child - how you get JS to HTML file. Becomes the last element of our existing HTML
+// // body.appendChild(newH1);
+//
+// //how to add before the body
+// // parentelement.insertBefore(new node, reference node)
+// newH1.className = "text-center";
+// // body.insertBefore(newH1, div);
+//
+// //.id
+// div.id = "red_text";
+//
+// //.notation - how you connect a method or a property to an object (e.g. method.object)
+//
+// //classList
+// //is itself a method - has multiple arguments you can give it.
+// //add a list of classes that are already on the element:
+// newH1.classList.add("text-center");
+//
+// div.addEventListener('click', e =>{
+//   div.classList.toggle('text-center');
+//   div.classList.replace('blue-background', 'green-background')
+// });
+// //.toggle is very useful.
+// console.log(div.classList.contains('text-center'));
+//
+// //.setAttribute() - can set the attribute to anything else.
+//
+// myImg = document.createElement('img');
+// //set the src attribute:
+// myImg.setAttribute('src', 'https://images.unsplash.com/photo-1506184719731-01e394588102?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6295b9fe1c5af6125d746c763368adbd&auto=format&fit=crop&w=991&q=80');
+// //add the image to the page:
+// div.appendChild(myImg);
+// console.log(myImg)
+
+// Fizz Buzz Test
+//check the modulus to determine if it is a multiple of 3 or 5
+//createElement - b/c need it to print to the page need an Element
+//
+let body = document.querySelector('body');
+
+for (let i = 1; i <= 100; i++) {
+  let p = document.createElement('p');
+  if (i % 3 === 0 && i % 5 === 0) {
+    p.textContent = 'FizzBuzz';
+  }else if (i % 5 === 0) {
+		p.textContent = ('Buzz');
+	}else	if (i % 3 === 0) {
+		p.textContent = ('Fizz');
+	}else {
+    p.textContent = i;
+  }
+  body.appendChild(p);
+}
 // Accept 2 arguments (age of person now, amount of product per day).
 // Calculate the supply needed for the rest of the user's life, based on a constant max age of 80.
 // Alert the answer in this format: "You will need x to last you until you're y.
@@ -303,4 +359,5 @@ let myUpperCasedString = toUpperCase("hello world");
 
 // always going to be attached to something with a period.
 // method is always going to be attached to an object with a period and always have parentheses = obj.method()
+
 
