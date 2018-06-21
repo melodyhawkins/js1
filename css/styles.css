@@ -1,0 +1,22 @@
+.container{
+  height: 600px;
+  width: 50%;
+  background-color: hotpink;
+}
+#red_text{
+  color: #ff0000;
+}
+.text-center{
+  text-align: center;
+
+}
+.blue-background{
+  background-color: #0000ff;
+  height: 500px;
+  width: 500px;
+}
+.green-background{
+  background-color: #00ff00;
+  height: 500px;
+  width: 500px;
+}
